@@ -1,0 +1,39 @@
+        body {
+            background-color: rgba(0, 0, 0, 0.9);
+            color: rgba(193, 163, 87, 1);
+        }
+        
+        .elem {
+            margin: auto;
+            width: 200px;
+            padding: 100px;
+            font-size: 20px;
+        }
+        
+        img {
+            top: 30px;
+            right: 50px;
+        }
+        
+        input {
+            margin: 15px;
+            padding: 10px;
+        }
+        
+ @media (max-width: 750px) {
+            img {
+                display: block;
+                }
+            form {
+                display: block;
+                }
+        }
+
+@media (min-width: 750px) {
+            img {
+                position: absolute;
+            }
+            form {
+                position: relative;
+            }
+        }
